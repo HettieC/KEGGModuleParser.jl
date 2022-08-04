@@ -3,6 +3,9 @@ uuid = "8ec094ee-96fb-47c5-b407-8e5042c4c592"
 authors = ["HettieC <hester.chapman@btinternet.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+
 [compat]
 julia = "1"
 
