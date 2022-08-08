@@ -7,4 +7,5 @@ struct KEGGModule
     Pathway::Dict{String,String}
     Reaction::Dict{String,String}
     Compound::Dict{String,String}
+    EC::Vector{String}
 end
