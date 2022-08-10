@@ -177,7 +177,7 @@ end
 
 """
 make_pathway(mod_id::String)
-wiyegd
+
 make a KEGGPathwayModule object to store the pathway id, name and reaction ids
 """
 function make_pathway(mod_id::String)
