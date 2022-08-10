@@ -11,7 +11,7 @@ And look at the module's associated EC numbers:
 get_module_ECs("md:M00035") # KEGG module id md:M00035
 ```
 
-As well as getting all of the module information
+As well as getting all of the module information:
 ```julia
 get_module_info("M00035") #KEGG module id M00035
 ```
