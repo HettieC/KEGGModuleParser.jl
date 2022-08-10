@@ -175,7 +175,11 @@ function get_reaction_info(rxn_id::String)
     end
 end
 
+"""
+make_pathway(mod_id::String)
 
+make a KEGGPathwayModule object to store the pathway id, name and reaction ids
+"""
 function make_pathway(mod_id::String)
     mod = get_module_info(mod_id)
     if mod.entry[mod_id] != "Pathway Module"
@@ -183,4 +187,4 @@ function make_pathway(mod_id::String)
     else
         return KEGGPathwayModule(mod_id,mod.name,[r for r in keys(mod.reaction)])
     end
-end
+end 
